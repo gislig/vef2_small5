@@ -1,0 +1,67 @@
+.modalcontent {
+    position: relative;
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    z-index: 1000000000000;
+}
+
+.wrapper {
+    height: 100%;
+}
+
+.module {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    margin-top: 20%;
+    justify-content: center;
+    align-self: center;
+    vertical-align: middle;
+    align-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.module-content {
+    display: block;
+    width: 100%;
+}
+
+.title,
+.footer,
+.body {
+    display: block;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.body {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.btn {
+    position: absolute;
+    width: 30%;
+    display: flex;
+    clear: both;
+    color: #01b3ff;
+}
+
+.footer {
+    color: black;
+}

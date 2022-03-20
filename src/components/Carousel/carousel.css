@@ -1,0 +1,59 @@
+.carousel {
+    position: relative;
+    display: block;
+}
+
+.arrow-small {
+    height: 220px;
+    width: 400px;
+}
+
+.arrow-medium {
+    height: 420px;
+    width: 800px;
+}
+
+.arrow-large {
+    height: 520px;
+    width: 1000px;
+}
+
+.image-small {
+    height: 200px;
+    width: 400px;
+}
+
+.image-medium {
+    height: 400px;
+    width: 800px;
+}
+
+.image-large {
+    height: 500px;
+    width: 1000px;
+}
+
+.arrow {
+    color: white;
+    position: absolute;
+    vertical-align: middle;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    margin-right: 10px;
+    height: 30%;
+}
+
+.arrow:hover {
+    color: red;
+}
+
+.arrow-left {
+    left: 0;
+    color: black;
+}
+
+.arrow-right {
+    right: 0;
+    color: black;
+}
